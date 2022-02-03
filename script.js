@@ -9,22 +9,11 @@ function gradientOver() {
     gradientDiv.style.top = 0;
     gradientDiv.style.zIndex = 1;
     gradientDiv.style.background = 'linear-gradient(90deg, rgba(255,255,255) 0%, rgba(9,9,121, 0) 52%, rgba(9,9,121,1) 100%)';
-    //gradientDiv.appendChild((makeRandomBoard()))
     gradientDiv.classList.add('overlay')
     document.body.appendChild(gradientDiv)
     return gradientDiv;
 }
-//function gradientOver() {
-//  let gradientDiv = document.createElement('div');
-//gradientDiv.style.position = 'absolute';
-//gradientDiv.style.width = '100%'
-//gradientDiv.style.height = '100%' linear-gradient(136deg, #673ab7, transparent);
-//gradientDiv.style.left = 0;
-//gradientDiv.style.top = 0;
-//gradientDiv.style.zIndex = 100;
-//gradientDiv.style.background = 'linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7) 40%, rgba(0,212,255,0.3) 100%)';
-//document.body.appendChild(gradientDiv)
-//}
+
 function makeGradientBoard(parentDiv) {
     gradientOver()
     let i = 99;
@@ -37,6 +26,7 @@ function makeGradientBoard(parentDiv) {
         i--
     }
 }
+//fgsdg
 
 function makeChecker() {
     let checker = document.createElement('div');
